@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #c0c0c0;
+}
+h1 {
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: helvetica, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 33px;
+  padding-bottom: 20px;
+}
+.quotationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.quotation {
+  width: 700px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 20px;
+  flex-direction: column;
+}
+.author {
+  align-self: flex-end;
+  padding-right: 50px;
+}
+.grid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid {
+  width: 1185px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.grid-item {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 375px;
+  height: 375px;
+}
+.dataClass {
+  flex-direction: column;
+}
+#apiStuff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px
+}
